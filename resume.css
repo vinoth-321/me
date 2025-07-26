@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf6e3;
+  color: #333;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #c2a27e;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: #3b3b3b;
+}
+
+header p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+header a {
+  color: #7e7c7a;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: #c2a27e;
+  border-bottom: 1px solid #c2a27e;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.section-content p,
+.section-content ul {
+  margin: 5px 0 15px 0;
+  line-height: 1.6;
+}
+
+.section-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-content ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.section-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #c2a27e;
+}
+
+.edu,
+.proj {
+  margin-bottom: 20px;
+}
+
+.edu h3,
+.proj h3 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.edu span,
+.proj span {
+  display: block;
+  font-size: 0.9em;
+  color: #777;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #aaa;
+}
